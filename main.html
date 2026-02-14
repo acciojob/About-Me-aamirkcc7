@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            width: 800px;
+            margin: 40px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            border-bottom: 2px solid #4e73df;
+            padding-bottom: 5px;
+            color: #4e73df;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile-header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #4e73df;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 15px;
+            background: #1cc88a;
+            color: white;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+
+        .skill {
+            margin-bottom: 15px;
+        }
+
+        .skill-name {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+
+        .progress {
+            background: #e0e0e0;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 15px;
+            background: #4e73df;
+            border-radius: 20px;
+        }
+
+        .icon {
+            font-size: 18px;
+            margin-right: 8px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Name Section -->
+    <h2>Name</h2>
+    <div class="profile-header">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        <h3>John Doe</h3>
+    </div>
+
+    <!-- Email Section -->
+    <h2>Email</h2>
+    <p>johndoe@example.com</p>
+
+    <!-- Profile Section -->
+    <h2>Profile</h2>
+    <p>Full Stack Web Developer</p>
+
+    <!-- About Me Section -->
+    <h2>About me</h2>
+    <p>
+        I am a passionate and dedicated web developer with a strong interest in building
+        responsive and user-friendly web applications. I enjoy learning new technologies,
+        solving real-world problems, and continuously improving my technical and soft skills.
+    </p>
+
+    <!-- Skills Section -->
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span><span class="icon">💻</span>HTML</span>
+            <span>90%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width:90%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span><span class="icon">🎨</span>CSS</span>
+            <span>85%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width:85%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span><span class="icon">⚙️</span>JavaScript</span>
+            <span>75%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width:75%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-name">
+            <span><span class="icon">🗄️</span>SQL</span>
+            <span>65%</span>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" style="width:65%"></div>
+        </div>
+    </div>
+
+    <br>
+    <span class="badge">Team Player</span>
+    <span class="badge">Quick Learner</span>
+    <span class="badge">Problem Solver</span>
+
+</div>
+
+</body>
+</html>
 
